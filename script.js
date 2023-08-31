@@ -6,7 +6,7 @@ botonesMostrarModal.forEach(boton => {
     boton.addEventListener('click', (event) => {
         const modalId = event.target.getAttribute('data-modal');
         const modal = document.getElementById(modalId);
-        modal.style.display = 'block';
+        modal.style.display = 'flex';
     });
 });
 
